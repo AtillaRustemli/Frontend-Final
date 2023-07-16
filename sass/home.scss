@@ -1,0 +1,17 @@
+@import "./header.scss";
+@import "./variables.scss";
+@import "./reset.scss";
+@import "./drawer.scss";
+@import "./banner.scss";
+@import "./business-progress.scss";
+@import "./about-us.scss";
+@import "./swiper.scss";
+@import "./work-space";
+body {
+  background-color: $background_color;
+  z-index: -1;
+  width: auto;
+  font-family: "DM Sans", sans-serif;
+  background-image: url("/images/home-images/first_big_picture.png");
+  background-repeat: no-repeat;
+}
